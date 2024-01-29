@@ -1,0 +1,45 @@
+.ftr {
+    background: #333;
+    background-image: url(../../public/foot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.ftimg img{
+    width: 7.0625rem;
+    height: 6.1875rem;
+}
+
+.r_intro{
+    padding-right: 1.5rem;
+    text-align: justify;
+}
+
+.ftrpar {
+    color: #fff;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f_title{
+    color: #61DAFB;
+}
+
+.ftrlist {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ftrlist a{
+    text-decoration: none;
+    color: #fff;
+}
