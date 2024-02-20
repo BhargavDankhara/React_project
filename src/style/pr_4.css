@@ -1,0 +1,144 @@
+/* Form Styles */
+.InputBox {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px 0;
+    filter: brightness(110%);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.user__details {
+    padding: 20px;
+}
+
+.input__box,
+.input__box2 {
+    position: relative;
+    margin: 10px 0;
+}
+
+.details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #666;
+    padding: 10px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.input2 {
+    resize: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* comment btn */
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button input[type="submit"] {
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+.button input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+/* Clear Button */
+.clear-button {
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clear-button:hover {
+    background-color: #ff3333;
+}
+
+/* rating  */
+.rating {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.rating span {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating span:hover {
+    color: #ffd700;
+}
+
+/* Review Card */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.userEmail {
+    color: #999;
+}
+
+.userComment {
+    margin-top: 10px;
+    color: #666;
+}
